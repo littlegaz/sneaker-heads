@@ -1,6 +1,6 @@
 /* Write Your CSS Below 
 Colors: 
-- rgb(243, 183, 106)
+rgb(243, 183, 106)
 - yellow
 - rgb(241, 117, 0)
 - red
@@ -27,3 +27,38 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+body {
+    width: 50%;
+    background-color: rgb(243, 183, 106);
+    background-image: url(https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg);
+    background-size: cover;
+}
+
+h1 {
+    background-image: linear-gradient(rgb(116, 201, 241), rgb(251, 64, 64));
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(109, 0, 235);
+    text-decoration: underline;
+    border-radius: 0.5em;
+    text-shadow: 5px 3px 10px rgb(219,255,57);
+}
+
+p {
+    font-size: 1.5em;
+    font-family: Copperplate, fantasy;
+    color: white
+}
+
+#jordans-1-desc {
+    border: solid rgb(241, 117, 0);
+    background-color: rgb(116,201,241);
+    border-radius: 0.5em;
+}
+
+#jordans-2-desc {
+    border: solid rgb(13, 110, 10);
+    background-color: rgb(241, 116, 116);
+    border-radius: 0.5em;
+}
